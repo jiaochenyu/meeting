@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">会议室</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string name="hint_edit_account">用户名/手机号/邮箱</string>
+    <string name="hint_edit_password">请输入密码</string>
+    <string name="hint_edit_password_confirm">请再一次确认密码</string>
+    <string name="label_link_register">去注册</string>
+    <string name="btn_login">登录</string>
+    <string name="label_link_forget_password">忘记密码</string>
+
+
+    <string name="label_room_large">会议室大小\n(Capacity)</string>
+    <string name="label_room_people_num">实际人数\n(Actual number of people)</string>
+    <string name="label_room_requirements">要求\n(Requirements)</string>
+    <string name="title_order">订单</string>
+    <string name="cry"><![CDATA[（┬＿┬）]]></string>
+    <string name="data_order_null">您还没有订单！</string>
+    <string name="data_null">暂无数据！</string>
+    <string name="label_price">￥%1$.1f</string>
+    <string name="label_choose_payment_source">请选择支付渠道</string>
+    <string name="btn_payment">立即支付￥%1$.1f</string>
+    <string name="data_condition_null">Sorry.There is no available room!</string>
+
+
+</resources>

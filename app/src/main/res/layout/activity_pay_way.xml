@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/include_title_toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_gray_bg"
+        android:padding="@dimen/spacing_minor"
+        android:text="@string/label_choose_payment_source"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/font_normal"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/pay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/spacing_minor"
+        android:paddingLeft="@dimen/spacing_major"
+        android:paddingRight="@dimen/spacing_major"
+        android:paddingTop="@dimen/spacing_minor"
+        >
+
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ali_pay"
+            />
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/spacing_minor"
+            android:paddingRight="@dimen/spacing_minor"
+            android:text="支付宝"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/font_normal"
+            />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+        <RadioButton
+            android:id="@+id/radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/sel_common_check_bg"
+            android:checked="true"
+            android:clickable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/font_normal"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_size"
+        android:background="@color/divider"
+        />
+
+    <LinearLayout
+        android:id="@+id/pay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/spacing_minor"
+        android:paddingLeft="@dimen/spacing_major"
+        android:paddingRight="@dimen/spacing_major"
+        android:paddingTop="@dimen/spacing_minor"
+        >
+
+        <ImageView
+            android:id="@+id/img_icon2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/wechat_pay"
+            />
+
+        <TextView
+            android:id="@+id/txt_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/spacing_minor"
+            android:paddingRight="@dimen/spacing_minor"
+            android:text="微信"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/font_normal"
+            />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/sel_common_check_bg"
+            android:clickable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/font_normal"
+            />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_payment"
+        style="@style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cell_normal"
+        android:layout_marginLeft="@dimen/spacing_minor"
+        android:layout_marginRight="@dimen/spacing_minor"
+        android:layout_marginTop="@dimen/spacing_massive"
+        android:text="@string/btn_payment"
+        />
+
+</LinearLayout>
